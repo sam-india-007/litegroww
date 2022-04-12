@@ -31,8 +31,9 @@ public class Home {
         System.out.println("3. Sell Stocks");
         System.out.println("4. Sell ETFS");
         System.out.println("5. Search Stocks by Category");
-        System.out.println("6. My Profile");
-        System.out.println("7. Logout");
+        System.out.println("6. Search Stocks/ETFs by Ticker");
+        System.out.println("7. My Profile");
+        System.out.println("8. Logout");
 
         int i = sc.nextInt();
 
@@ -43,8 +44,9 @@ public class Home {
             case 3: SellStock.render(un, PAN); break;
             case 4: SellETF.render(un, PAN); break;
             case 5: Search.render(un, PAN); break;
-            case 6: Profile.render(un, PAN); break;
-            case 7: Login.render(); break;
+            case 6: Search_TKR.render(un, PAN); break;
+            case 7: Profile.render(un, PAN); break;
+            case 8: Login.render(); break;
             default: System.out.println("Input not in proper format, quitting");
         }
 
