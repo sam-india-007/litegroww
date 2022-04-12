@@ -1,0 +1,6 @@
+INSERT INTO Cust values ("ABCDSEFD", "Srijan", "Srijan13", "123234231", "10000");
+INSERT INTO Cust values ("ABCDSEDSe", "Sammy", "Sammysexy", "12323420", "6900");
+INSERT INTO ETF VALUES ("BEN", "Hottie", 69.00, 420, 42000.69,100,150);
+INSERT INTO ETF VALUES ("Gwen", "Shortie", 79.00, 420, 4200.69,60,550);
+INSERT INTO Stock VALUES ("KSB", "Amul", 74.56, 45.67, 6.78, 340000.69, 5.45, "Bank",110,250);
+INSERT INTO Stock VALUES ("AD", "Yoshua Excellence", 47.56, 115.67, 16.78, 540000.69, 0.45, "IT",130,350);
